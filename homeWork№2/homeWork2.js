@@ -1,16 +1,16 @@
-
-
-function arrNamberPlass() {
-  const items = [4, 2, 3];
-  for (let i = 0; i <= items.length; ++i) {
-      items[i] = items[i]+1;
+// HOMEWORK2
+//__________________________________________
+// function arrNamberPlass() {
+//   const items = [4, 2, 3];
+//   for (let i = 0; i <= items.length; ++i) {
+//       items[i] = items[i]+1;
       
-      console.log(items[i])
-  }
+//       console.log(items[i])
+//   }
   
-}
-arrNamberPlass();
-
+// }
+// arrNamberPlass();
+//________________________________________________
 
 
 

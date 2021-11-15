@@ -50,39 +50,41 @@
 // }
 //  console.log(arraySum(arr))
 
-
-let arri = [5, 7, [4, [2], 8, [1, 3], 2], [9, []], 1, 8];
-function isArray(arr) {
+//_________________________HOMEWORK 3_______________________
+// let arri = [5, 7, [4, [2], 8, [1, 3], 2], [9, []], 1, 8];
+// function isArray(arr) {
   
- let sum = 0;
-    if (Object.prototype.toString.call(arr) === "[object Array]") {
-        return Object.prototype.toString.call(arr) === "[object Array]";
-        for (let i = 0; i < array.length; i++){
-            isArray(arr += arri);
-        }
+//  let sum = 0;
+//     if (Object.prototype.toString.call(arr) === "[object Array]") {
+//         return Object.prototype.toString.call(arr) === "[object Array]";
+//         for (let i = 0; i < array.length; i++){
+//             isArray(arr += arri);
+//         }
     
     
     
     
-    }
-  return sum
-}
-console.log(isArray(arri));
+//     }
+//   return sum
+// }
+// console.log(isArray(arri));
 
 
- let arr = [5, 7, [4, [2], 8, [1, 3], 2], [9, []], 1, 8,];
+//  let arr = [5, 7, [4, [2], 8, [1, 3], 2], [9, []], 1, 8,];
 
- function arraySum(array) {
- 	let sum = 0;
- 	for (let i = 0; i < array.length; i++) {
-        return (Object.prototype.toString.call(array[i]) === "[object Number]") 
-            if (Object.prototype.toString.call(array[i]) === '[object Number]') {
+//  function arraySum(array) {
+//  	let sum = 0;
+//  	for (let i = 0; i < array.length; i++) {
+//         return (Object.prototype.toString.call(array[i]) === "[object Number]") 
+//             if (Object.prototype.toString.call(array[i]) === '[object Number]') {
  			
-                sum += array[i];
-             }  
-        };
-        return sum
- 	}
+//                 sum += array[i];
+//              }  
+//         };
+//         return sum
+//  	}
  	
  
- console.log(arraySum(arr))
+//  console.log(arraySum(arr))
+
+ //______________________________________________________
