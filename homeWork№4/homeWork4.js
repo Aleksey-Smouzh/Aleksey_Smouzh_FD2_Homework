@@ -22,3 +22,33 @@ console.log(findVowels("ПодтвердитЕ повторнуЮ Отправк
 //  }
 
 // console.log(count); 
+
+var anyString = 'Акапулько';
+
+console.log( anyString.charAt(0));
+
+console.log( anyString.charAt(2));
+
+console.log( anyString.charAt(4));
+
+console.log( anyString.charAt(8));
+
+
+function vowelCount(str){
+    let splitString=str.split('');
+    let obj={};
+    let vowels="ауоиэыяеё";
+    splitString.forEach((letter)=>{
+      if(vowels.indexOf(letter.toLowerCase())!==-1){
+        if(letter in obj){
+          obj[letter]++;
+        }else{
+          obj[letter]=1;
+        }
+      }   
+  
+   });
+   return obj;    
+  }
+  console.log(vowelCount('ПодтвердитЕ повторнуЮ Отправку форМ '))
+  
