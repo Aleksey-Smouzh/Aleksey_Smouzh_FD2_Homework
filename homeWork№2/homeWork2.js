@@ -1,14 +1,13 @@
 
 
 function arrNamberPlass() {
-  const items = [1, 2, 3];
+  const items = [4, 2, 3];
   for (let i = 0; i <= items.length; ++i) {
+      items[i] = items[i]+1;
       
+      console.log(items[i])
   }
-  items.shift();
-  items.push(4);
-
-  console.log(items);
+  
 }
 arrNamberPlass();
 
